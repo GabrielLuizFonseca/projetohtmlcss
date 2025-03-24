@@ -6,7 +6,7 @@
     <title>Tecnologia</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -16,15 +16,15 @@
     </header>
     <nav>
      <a href="#">Home</a>
-     <a href="#">Noticias</a>
-     <a href="#">Contato</a>
+     <a href="#noticia">Noticias</a>
+     <a href="#contato">Contato</a>
     </nav>
     <main>
         <article>
             <h1>História do Mascote do Android</h1>
                 <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
-            <h2>A primeira versão</h2>
+            <h2 id="noticia">A primeira versão</h2>
                 <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank" class="externo">Dan Morrill</a>. Ele conta que abriu o <a href="https://inkscape.org/pt-br/" target="_blank">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
             <picture>
                 <source media="(max-width: 700px)" srcset="imagens/dan-droids-pq.png">
@@ -77,6 +77,10 @@
     
 </article>
 </main>
-    <footer><p>Site criado por Gustavo Guanabara para o CursoemVideo.</p></footer>
+    <footer id="contato">
+        <p>
+            Site criado por Gabriel Luiz Fonseca. <a href="https://wa.link/mc0f7t"> <i class="fa fa-whatsapp"> Contato</i></a>
+        </p>
+    </footer>
 </body>
 </html>
